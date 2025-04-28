@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
@@ -27,6 +28,9 @@ const Navbar = () => {
             </a>
             <a href="#portfolio" className="text-foreground hover:text-primary px-3 py-2 text-sm font-medium">
               Портфолио
+            </a>
+            <a href="#blog" className="text-foreground hover:text-primary px-3 py-2 text-sm font-medium">
+              Блог
             </a>
             <a href="#contact" className="text-foreground hover:text-primary px-3 py-2 text-sm font-medium">
               Контакты
@@ -64,6 +68,9 @@ const Navbar = () => {
             </a>
             <a href="#portfolio" className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary">
               Портфолио
+            </a>
+            <a href="#blog" className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary">
+              Блог
             </a>
             <a href="#contact" className="block px-3 py-2 rounded-md text-base font-medium text-foreground hover:text-primary">
               Контакты
